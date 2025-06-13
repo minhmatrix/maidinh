@@ -6,7 +6,7 @@ const CatchAllPage = () => {
 
   useEffect(() => {
     // Thay thế bằng URL mà bạn muốn chuyển hướng đến
-    window.location.href = 'https://google.com/404';
+    window.location.href = '';
   }, []);
 
   return null; // Hoặc bạn có thể trả về một component đơn giản nếu cần
